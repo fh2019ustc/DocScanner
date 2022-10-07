@@ -19,4 +19,4 @@ If you find this code useful for your research, please use the following BibTeX 
 ```
 
 ## Acknowledgement
-The codes are largely based on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html), [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet), and [DocTr](https://github.com/fh2019ustc/DocTr). Thanks for their wonderful works.
+The codes are largely based on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) and [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet). Thanks for their wonderful works.
