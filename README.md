@@ -19,7 +19,17 @@ This is a PyTorch/GPU re-implementation of the paper [DocScanner: Robust Documen
 |    *DocScanner-L*       |     0.5178   |     7.45    |  1.86    |   390.43         |     0.1486     |    632.34             |     0.1648     | 
  
 ## Citation
-If you find this code useful for your research, please use the following BibTeX entry.
+Please cite the related works in your publications if it helps your research:
+
+```
+@inproceedings{feng2021doctr,
+  title={DocTr: Document Image Transformer for Geometric Unwarping and Illumination Correction},
+  author={Feng, Hao and Wang, Yuechen and Zhou, Wengang and Deng, Jiajun and Li, Houqiang},
+  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
+  pages={273--281},
+  year={2021}
+}
+```
 
 ```
 @article{feng2021docscanner,
