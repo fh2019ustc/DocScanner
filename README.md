@@ -12,11 +12,11 @@ This is a PyTorch/GPU re-implementation of the paper [DocScanner: Robust Documen
 - ***OCR Metrics:*** The index of 30 document (60 images) of [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) used for our OCR evaluation is ```$ROOT/ocr_img.txt``` (*Setting 1*). Please refer to [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet) for the index of 25 document (50 images) of [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html) used for their OCR evaluation (*Setting 2*). We provide the OCR evaluation code at ```$ROOT/OCR_eval.py```. The version of pytesseract is 0.3.8, and the version of [Tesseract](https://digi.bib.uni-mannheim.de/tesseract/) in Windows is recent 5.0.1.20220118. Note that in different operating systems, the calculated performance has slight differences.
 
  
-|      Method             |    MS-SSIM   |      LD     |   Li-D   |  ED (*Setting 1*)  |       CER      |      ED (*Setting 2*)   |      CER       | 
-|:-----------------------:|:------------:|:-----------:| :-------:|:----------------:|:--------------:|:---------------------:|:--------------:|
-|    *DocScanner-T*       |     0.5123   |     7.92    |  2.04    |   501.82         |     0.1823     |    809.46             |     0.2068     | 
-|    *DocScanner-B*       |     0.5134   |     7.62    |  1.88    |   434.11         |     0.1652     |    671.48             |     0.1789     | 
-|    *DocScanner-L*       |     0.5178   |     7.45    |  1.86    |   390.43         |     0.1486     |    632.34             |     0.1648     | 
+|      Method             |    MS-SSIM   |      LD     |   Li-D   |  ED (*Setting 1*)  |       CER      |      ED (*Setting 2*)   |  CER       |  Para. (M) |
+|:-----------------------:|:------------:|:-----------:| :-------:|:----------------:|:--------------:|:---------------------:|:--------------:|:--------------:|
+|    *DocScanner-T*       |     0.5123   |     7.92    |  2.04    |   501.82         |     0.1823     |    809.46             |     0.2068     |  2.6 |
+|    *DocScanner-B*       |     0.5134   |     7.62    |  1.88    |   434.11         |     0.1652     |    671.48             |     0.1789     |  5.2 |
+|    *DocScanner-L*       |     0.5178   |     7.45    |  1.86    |   390.43         |     0.1486     |    632.34             |     0.1648     |  8.5 |
  
 ## Citation
 Please cite the related works in your publications if it helps your research:
