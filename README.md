@@ -37,6 +37,15 @@ Please cite the related works in your publications if it helps your research:
 ```
 
 ```
+@inproceedings{feng2022docgeonet,
+  title={Geometric Representation Learning for Document Image Rectification},
+  author={Feng, Hao and Zhou, Wengang and Deng, Jiajun and Wang, Yuechen and Li, Houqiang},
+  booktitle={Proceedings of the European Conference on Computer Vision},
+  year={2022}
+}
+```
+
+```
 @article{feng2021docscanner,
   title={DocScanner: Robust Document Image Rectification with Progressive Learning},
   author={Feng, Hao and Zhou, Wengang and Deng, Jiajun and Tian, Qi and Li, Houqiang},
