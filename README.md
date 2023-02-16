@@ -56,3 +56,7 @@ Please cite the related works in your publications if it helps your research:
 
 ## Acknowledgement
 The codes are largely based on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) and [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet). Thanks for their wonderful works.
+
+## Contact
+For commercial usage, please contact Prof. Wengang Zhou and Prof. Houqiang Li via ([zhwg@ustc.edu.cn](zhwg@ustc.edu.cn)) and ([lihq@ustc.edu.cn](lihq@ustc.edu.cn)).
+
