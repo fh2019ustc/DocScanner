@@ -7,6 +7,11 @@ This is a PyTorch/GPU re-implementation of the paper [DocScanner: Robust Documen
 
 ![image](https://user-images.githubusercontent.com/50725551/209266364-aee68a88-090d-4f21-919a-092f19570d86.png)
 
+# DEMO
+
+![image](https://user-images.githubusercontent.com/50725551/223947040-eac8389c-bed8-433d-b23b-679c926fba8f.png)
+![image](https://user-images.githubusercontent.com/50725551/223946953-3a46d6a3-4361-41ef-bb5c-f235392e1f88.png)
+
 
 ## Training
 - We train the **Document Localization Module** using the [Doc3D](https://github.com/fh2019ustc/doc3D-dataset) dataset. Besides, [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/) dataset is exploited for background data enhancement.
