@@ -7,7 +7,14 @@ This is a PyTorch/GPU re-implementation of the paper [DocScanner: Robust Documen
 
 ![image](https://user-images.githubusercontent.com/50725551/209266364-aee68a88-090d-4f21-919a-092f19570d86.png)
 
-## Demo
+
+## 🚀 Demo [(Link)](https://docai.doctrp.top:20443/)
+1. Upload the distorted document image to be rectified in the left box.
+2. Click the "Submit" button.
+3. The rectified image will be displayed in the right box.
+
+<img width="1534" alt="image" src="https://github.com/fh2019ustc/DocScanner/assets/50725551/9eca3f7d-1570-4246-a3db-0a1cf1eece2d">
+
 
 ![image](https://user-images.githubusercontent.com/50725551/223947040-eac8389c-bed8-433d-b23b-679c926fba8f.png)
 ![image](https://user-images.githubusercontent.com/50725551/223946953-3a46d6a3-4361-41ef-bb5c-f235392e1f88.png)
