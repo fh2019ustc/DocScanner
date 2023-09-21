@@ -11,11 +11,10 @@ This is a PyTorch/GPU re-implementation of the paper [DocScanner: Robust Documen
 
 
 ## 🚀 Demo [(Link)](https://docai.doctrp.top:20443/)
+***Note***：The model version used in the demo corresponds to ***"DocScanner-L"*** as described in the paper.
 1. Upload the distorted document image to be rectified in the left box.
 2. Click the "Submit" button.
 3. The rectified image will be displayed in the right box.
-   
-***Note***： The model version used in the demo corresponds to "DocScanner-L" as described in the paper.
 
 <img width="1534" alt="image" src="https://github.com/fh2019ustc/DocScanner/assets/50725551/9eca3f7d-1570-4246-a3db-0a1cf1eece2d">
 
