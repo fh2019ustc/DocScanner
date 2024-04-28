@@ -1,4 +1,4 @@
-🔥 ***2024.4.28*** **:Good news! The code and pre-trained model of DocScanner are now released!**
+🔥 ***2024.4.28:*** **Good news! The code and pre-trained model of DocScanner are now released!**
 
 🚀 **Good news! The [online demo](https://docai.doctrp.top:20443/) for DocScanner is now live, allowing for easy image upload and correction.**
 
