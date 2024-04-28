@@ -34,6 +34,14 @@ This is a PyTorch/GPU re-implementation of the paper [DocScanner: Robust Documen
 - We train the **Document Localization Module** using the [Doc3D](https://github.com/fh2019ustc/doc3D-dataset) dataset. Besides, [DTD](https://www.robots.ox.ac.uk/~vgg/data/dtd/) dataset is exploited for background data enhancement.
 - We train the **Progressive Rectification Module** using the [Doc3D](https://github.com/fh2019ustc/doc3D-dataset) dataset. Here we use the background-excluded document images for training.
 
+## Inference 
+1. Put the pre-trained model to `$ROOT/model_pretrained/`.
+2. Put the distorted images in `$ROOT/distorted/`.
+3. Run the script and the rectified images are saved in `$ROOT/rectified/` by default.
+    ```
+    python inference.py
+    ```
+
 ## Evaluation
 - ***Important.*** In the [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html), the '64_1.png' and '64_2.png' distorted images are rotated by 180 degrees, which do not match the GT documents. It is ingored by most of existing works. Before the evaluation, please make a check. Note that the performances in most of existing work are computed with these two ***mistaken*** samples.
 - For reproducing the following quantitative performance on the ***corrected*** [DocUNet Benchmark](https://www3.cs.stonybrook.edu/~cvl/docunet.html), please use the geometric rectified images available from [Google Drive](https://drive.google.com/drive/folders/1QBe26xJwIl38sWqK2ZE9ke5nu0Mpr4dW?usp=sharing). For the ***corrected*** performance of [other methods](https://github.com/fh2019ustc/Awesome-Document-Image-Rectification), please refer to the paper [DocScanner](https://arxiv.org/pdf/2110.14968v2.pdf).
