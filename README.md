@@ -1,3 +1,5 @@
+🔥 ***2024.4.28*** **:Good news! The code and pre-trained model of DocScanner are now released!**
+
 🚀 **Good news! The [online demo](https://docai.doctrp.top:20443/) for DocScanner is now live, allowing for easy image upload and correction.**
 
 🔥 **Good news! Our new work [DocTr++: Deep Unrestricted Document Image Rectification](https://github.com/fh2019ustc/DocTr-Plus) comes out, capable of rectifying various distorted document images in the wild.**
