@@ -100,8 +100,8 @@ def rec(seg_model_path, rec_model_path, distorrted_path, save_path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--seg_model_path', default='./seg.pth')
-    parser.add_argument('--rec_model_path', default='./DocScanner-L.pth')
+    parser.add_argument('--seg_model_path', default='./model_pretrained/seg.pth')
+    parser.add_argument('--rec_model_path', default='./model_pretrained/DocScanner-L.pth')
     parser.add_argument('--distorrted_path', default='./distorted/')
     parser.add_argument('--rectified_path', default='./rectified/')
     opt = parser.parse_args()
