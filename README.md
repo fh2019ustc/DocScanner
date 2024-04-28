@@ -35,7 +35,7 @@ This is a PyTorch/GPU re-implementation of the paper [DocScanner: Robust Documen
 - We train the **Progressive Rectification Module** using the [Doc3D](https://github.com/fh2019ustc/doc3D-dataset) dataset. Here we use the background-excluded document images for training.
 
 ## Inference 
-1. Put the pre-trained model to `$ROOT/model_pretrained/`.
+1. Put the [pre-trained DocScanner-L](https://drive.google.com/drive/folders/1W1_DJU8dfEh6FqDYqFQ7ypR38Z8c5r4D?usp=sharing) to `$ROOT/model_pretrained/`.
 2. Put the distorted images in `$ROOT/distorted/`.
 3. Run the script and the rectified images are saved in `$ROOT/rectified/` by default.
     ```
