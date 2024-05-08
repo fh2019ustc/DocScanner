@@ -1,11 +1,16 @@
 path_rec = "xxx";  % rectified image path
 path_scan = './scan/';  % scan image path
 
-tarea=598400;
-ms1=0;
-ld1=0;
-ms2=0;
-ld2=0;
+tarea = 598400;
+ms1 = 0;
+ld1 = 0;
+lid1 = 0;
+ms2 = 0;
+ld2 = 0;
+lid2 = 0;
+wv = 0;
+wh = 0;
+
 sprintf(path_rec)
 for i=1:65
     path_rec_1 = sprintf("%s%d%s", path_rec, i, '_1 copy_rec.png');  % rectified image path
@@ -33,13 +38,20 @@ for i=1:65
     A2 = imresize(A2,[size(ref,1),size(ref,2)]);
 
     % calculate
-    [ms_1,ld_1] = evalUnwarp(A1,ref);
-    [ms_2,ld_2] = evalUnwarp(A2,ref);
+    [ms_1, ld_1, lid_1, W_v_1, W_h_1] = evalUnwarp(A1,ref);
+    [ms_2, ld_2, lid_2, W_v_2, W_h_2] = evalUnwarp(A2,ref);
     ms1 = ms1 + ms_1;
     ms2 = ms2 + ms_2;
     ld1 = ld1 + ld_1;
     ld2 = ld2 + ld_2;
+    lid1 = lid1 + lid_1;
+    lid2 = lid2 + lid_2;
+    wv = wv + W_v_1 + W_v_2;
+    wh = wv + W_h_1 + W_h_2;
 end
 
-ms = (ms1 + ms2) / 130
-ld = (ld1 + ld2) / 130
+ms = (ms1 + ms2) / 130  % MS-SSIM
+ld = (ld1 + ld2) / 130  % local distortion
+li_d = (lid1 + lid2) / 130  % line distortion
+wv = wv / 130  % wh index
+wh = wh / 130  % wv index
