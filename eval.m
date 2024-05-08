@@ -1,5 +1,6 @@
 path_rec = "xxx";  % rectified image path
 path_scan = './scan/';  % scan image path
+label_path = './layout/'; % layout result path
 
 tarea = 598400;
 ms1 = 0;
