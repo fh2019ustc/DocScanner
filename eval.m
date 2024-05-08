@@ -60,5 +60,5 @@ end
 ms = (ms1 + ms2) / 130  % MS-SSIM
 ld = (ld1 + ld2) / 130  % local distortion
 li_d = (lid1 + lid2) / 130  % line distortion
-wv = wv / 130  % wh index
-wh = wh / 130  % wv index
+wv = wv / 130  % wv index
+wh = wh / 130  % wh index
