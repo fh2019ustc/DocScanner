@@ -1,4 +1,4 @@
-function [ms, ld, li_d, wv, wh] = evalUnwarp(A, ref)
+function [ms, ld, li_d, wv, wh] = evalUnwarp(A, ref, data)
 %EVALUNWARP compute MSSSIM and LD between the unwarped image and the scan
 %   A:      unwarped image
 %   ref:    reference image, the scan image
