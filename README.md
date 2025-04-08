@@ -94,5 +94,5 @@ Please cite the related works in your publications if it helps your research:
 The codes are largely based on [DocUNet](https://www3.cs.stonybrook.edu/~cvl/docunet.html) and [DewarpNet](https://github.com/cvlab-stonybrook/DewarpNet). Thanks for their wonderful works.
 
 ## Contact
-For commercial usage, please contact Professor Wengang Zhou ([zhwg@ustc.edu.cn](zhwg@ustc.edu.cn)) and Hao Feng ([haof@mail.ustc.edu.cn](haof@mail.ustc.edu.cn)).
+For commercial usage, please contact Hao Feng ([haof@mail.ustc.edu.cn](haof@mail.ustc.edu.cn)).
 
